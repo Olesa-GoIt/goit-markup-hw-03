@@ -92,7 +92,7 @@ button {
 
 .contacts-link {
   display: block;
-  padding: 24px;
+  padding: 24px 0;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -167,14 +167,25 @@ button {
 
 ===/*FEATURES*/===
 
-.features {
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .features-list {
   display: flex;
+  gap: 24px;
 }
 .features-item {
-  width: calc((100% - 24 * 3) / 4);
+  width: calc((100% - 72px) / 4);
 }
 
 .features-subtitle,
@@ -214,10 +225,19 @@ button {
 .team-item {
   background-color: #fff;
   width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-card-content {
-  padding: 32px 16px;
+  padding: 32px 0;
+}
+
+.team-subtitle {
+  text-align: center;
+}
+
+.team-text {
+  text-align: center;
 }
 
 ====/*Portfolio*/===
@@ -239,7 +259,7 @@ button {
   text-transform: capitalize;
   text-align: center;
   background-color: #fff;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 
 .portfolio-item {
@@ -247,21 +267,20 @@ button {
 }
 . .card-content {
   padding: 32px 16px;
-  border-bottom: 1px solid #e7e9fc;
-  border-left: 1px solid #e7e9fc;
-  border-right: 1px solid #e7e9fc;
+  border: 1px solid #e7e9fc;
 }
 .
 ===/*Footer*/===
 
 .page-footer {
   background-color: #2e2f42;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 100px 0;
 }
 
 .footer-logo .logo-part {
   color: #f4f4fd;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer-text {
