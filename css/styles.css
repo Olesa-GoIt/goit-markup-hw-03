@@ -109,6 +109,7 @@ button {
   display: flex;
   align-items: center;
   gap: 40px;
+  padding: 24px 0;
 }
 
 .contacts-list {
@@ -277,7 +278,7 @@ button {
   background-color: #2e2f42;
 }
 
-.footer-container {
+.page-footer .footer-container {
   padding: 100px 0;
 }
 
