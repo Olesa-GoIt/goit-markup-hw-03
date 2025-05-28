@@ -118,6 +118,10 @@ button {
   gap: 40px;
 }
 
+.section {
+  padding-bottom: 120px;
+  padding-top: 120px;
+}
 /*====HERO=====*/
 .hero {
   background-color: #2e2f42;
@@ -161,10 +165,6 @@ button {
   color: #fff;
   background-color: #404bbf;
 }
-.section {
-  padding-bottom: 120px;
-  padding-top: 120px;
-}
 
 ===/*FEATURES*/===
 
@@ -180,7 +180,6 @@ button {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
-
 .features-list {
   display: flex;
   gap: 24px;
@@ -276,7 +275,7 @@ button {
 
 .page-footer {
   background-color: #2e2f42;
-  padding: 100px 0;
+  padding: 100px 0 100px;
 }
 
 .footer-logo .logo-part {
