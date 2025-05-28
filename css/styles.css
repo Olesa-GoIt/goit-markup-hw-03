@@ -166,8 +166,6 @@ button {
   background-color: #404bbf;
 }
 
-===/*FEATURES*/===
-
 .visually-hidden {
   position: absolute;
   width: 1px;
@@ -270,8 +268,6 @@ button {
   border: 1px solid #e7e9fc;
   border-top: none;
 }
-
-===/*Footer*/===
 
 .page-footer {
   background-color: #2e2f42;
